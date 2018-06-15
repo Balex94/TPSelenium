@@ -47,6 +47,11 @@ public class LibraryTest {
 		Assert.fail();
 	}
 	
+	@Test 
+	public void fail2() {
+		Assert.fail();
+	}
+	
 	@After
 	public void closeBrowser()
 	{
