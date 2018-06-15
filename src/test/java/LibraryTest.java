@@ -42,6 +42,10 @@ public class LibraryTest {
         Assert.assertEquals("FIFA World Cup", titre.getText());
     }
 	
+	public void fail() {
+		Assert.fail();
+	}
+	
 	@After
 	public void closeBrowser()
 	{
